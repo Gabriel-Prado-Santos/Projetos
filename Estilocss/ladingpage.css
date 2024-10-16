@@ -1,0 +1,41 @@
+body{
+    margin: 100px;
+    background-color: rgba(135, 206, 235, 0.3);
+}
+
+.container{
+    position: absolute;
+    left: 43%;
+    
+}
+
+#img_redonda{
+    height: 200px;
+    width: 220px;
+    border-radius: 100%;
+    border: 3px solid skyblue;
+    position:relative;
+    left: 12%;  
+}
+
+.dados{
+    text-align: center;
+    text-decoration:none;
+    margin-top: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    font-family: "Anton", sans-serif;
+    border: 5px;
+    margin: 30px;
+    padding: 20px;
+    width: 200px;
+    background-color: skyblue;
+    display:block;
+    color: black;
+    border-radius: 50px;
+}
+

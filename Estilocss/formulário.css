@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    box-sizing: border-box;
+    background-color: skyblue;
+    position: absolute;
+    left: 40%; 
+    padding: 20px;
+    border-radius: 2%;
+    width: 400px;
+    margin-top: 300px;
+}
+
+.entrada {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    margin: 0px;
+
+}
+
+.espacos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
