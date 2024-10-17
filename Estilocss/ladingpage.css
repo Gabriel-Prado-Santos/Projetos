@@ -1,11 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
-    margin: 100px;
-    background-color: rgba(135, 206, 235, 0.3);
+    margin: 10px;
+    background-color: rgba(135, 206, 235, 0.3);/* cor de fundo*/
 }
 
 .container{
     position: absolute;
-    left: 43%;
+    left: 45%;
     
 }
 
@@ -15,7 +20,8 @@ body{
     border-radius: 100%;
     border: 3px solid skyblue;
     position:relative;
-    left: 12%;  
+    left: 8%;
+      
 }
 
 .dados{
@@ -23,6 +29,12 @@ body{
     text-decoration:none;
     margin-top: 20px;
     
+    
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding-left: 0;       /* Remove o recuo padrão */
 }
 
 a{
@@ -36,6 +48,58 @@ a{
     background-color: skyblue;
     display:block;
     color: black;
-    border-radius: 50px;
+    border-radius: 50px;   
 }
+.a_email{
+    width: 250px;
+}
+
+nav a:hover{
+    background-color: azure;
+}
+.dropdown-menu{
+    position:absolute;
+    display: none;
+    margin: 0px;
+}
+.dropdown-menu_1{
+    position:absolute;
+    display: none;
+    margin: 0px;
+}
+.dropdown-menu_2{
+    position:absolute;
+    display: none;
+    margin: 0px;
+}
+
+.dropdown-menu a{
+    display: block;
+}
+.dropdown-menu_1 a{
+    display: block;
+}
+
+.dropdown-menu_2 a{
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    display: inline;
+    left: 210px;
+    margin-top: 0px;
+    top:  495px;
+}
+.dropdown:hover .dropdown-menu_1{
+    display: inline;
+    left: 210px;
+    margin-top: 0px;
+    top: 398px;
+}
+.dropdown:hover .dropdown-menu_2{
+    display: inline;
+    left: 210px;
+    margin-top: 0px;
+    top: 580px;
+}
+
 
