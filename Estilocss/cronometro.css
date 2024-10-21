@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+}
+
+#cronometro {
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    left: 40%;
+    top: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    top: 50px;
+}
+
+button {
+    position: relative;
+    top: 60px;
+    font-size: larger;
+    font-weight: 400;
+    border-radius: 10px;
+    color: white;
+    box-shadow: none;
+}
+.start {
+    background-color: rgb(0, 239, 16);
+}
+.pause {
+    background-color: rgb(3, 3, 241);
+}
+.stop {
+    background-color: rgb(246, 3, 3);
+}
